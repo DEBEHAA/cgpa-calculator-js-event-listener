@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+   <h1>KONGU ENGINEERING COLLEGE</h1>
+</head>
+<style>
+    body {
+        background-image: url("https://timess3spore.s3.amazonaws.com/ndata/media/Counsellor/CollegeImage/2023/04/23/1682252086.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        font-family: Arial, sans-serif;
+        font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+      background-color: #f2f2f2;
+    }
+    .one {
+        width: 150vh;
+    }
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.subject {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <form id="cgpaForm">
+            <div id="subjectInputs"></div>
+            <button type="button" id="addSubject">Add Subject</button>
+            <button type="submit">Calculate CGPA</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
